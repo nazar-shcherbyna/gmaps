@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BA Google Maps</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEGyavMZmxzEehn6rTiVtJFLiLgLhAhsE&callback=initMap&libraries=&v=weekly" defer>
+    </script>
+  </head>
+  <body>
+    <div id="floating-panel">
+      <b>Start: </b>
+      <input type="text" id="start" placeholder="input start location">
+      <b>End: </b>
+      <input type="text" id="end" placeholder="input end location">
+      <input type="button" id="surch" value="Surch">
+    </div>
+    <div id="map"></div>
+  </body>
+</html>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
